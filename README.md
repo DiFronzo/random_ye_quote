@@ -1,10 +1,27 @@
-# random_ye_quote
-Generate a Ye quote using a cryptographically secure random number generator.
+# Random Ye Quote
+Generate a Ye aka. Kanye West quote using a cryptographically secure random number generator.
 
 ## Usage
 
 ```ts
 import { randomYeQuote } from "jsr:@difronzo/random-ye-quote@1";
 
-randomYeQuote(); // "All you have to be is yourself"
+console.log(randomYeQuote()); // "All you have to be is yourself"
+```
+
+## WTF is JSR!?
+**JSR is TypeScript first**. You can publish a TypeScript package to JSR and import it without compilation or .d.ts files. Deno has always been able to run native TypeScript.
+
+First join the waiting list on https://jsr.io. It takes about 3 minutes to be accepted.
+
+JSR is backwards compatible with Node. You add the registry to `.npmrc`:
+
+```bash
+@jsr:registry=https://npm.jsr.io
+```
+
+And then use any Node package manager to install from JSR:
+
+```console
+foo@bar:~$ npm install @jsr/difronzo__random-ye-quote
 ```
