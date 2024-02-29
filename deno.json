@@ -1,0 +1,5 @@
+{
+    "name": "@DiFronzo/random_ye_quote",
+    "version": "1.0.0",
+    "exports": "./mod.ts"
+  }
