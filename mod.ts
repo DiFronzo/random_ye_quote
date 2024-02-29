@@ -49,7 +49,7 @@ export const YE_QUOTES = [
    *
    * @example
    * ```ts
-   * import { randomYeQuote } from "jsr:@difronzo/random_ye_quote@1";
+   * import { randomYeQuote } from "jsr:@difronzo/random-ye-quote@1";
    *
    * randomYeQuote(); // "All you have to be is yourself"
    * ```
