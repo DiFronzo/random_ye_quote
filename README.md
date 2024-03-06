@@ -1,5 +1,5 @@
 # Random Ye Quote 
-<center><img src='https://github.com/DiFronzo/random_ye_quote/assets/30557582/63ff0d8b-50e9-4a7b-95b2-9b5e01c2d5f6' width='300'></center>
+<center><img src='https://github.com/DiFronzo/random_ye_quote/assets/30557582/a9402322-8209-4781-969e-f8cfcbab0659'></center>
 
 Generate a Ye aka. Kanye West quote using a cryptographically secure random number generator.
 
