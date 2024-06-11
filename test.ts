@@ -2,7 +2,7 @@
  * Importing the necessary modules and dependencies.
  */
 import { assert } from "https://deno.land/std@0.217.0/assert/assert.ts";
-import { randomYeQuote, Quote, YE_QUOTES } from "./mod.ts";
+import { Quote, randomYeQuote, YE_QUOTES } from "./mod.ts";
 import { expect } from "https://deno.land/x/expect/mod.ts";
 
 /**
@@ -29,22 +29,22 @@ Deno.test("randomYeQuote() returns different Ye quotes for multiple calls", () =
 /**
  * Test case to verify that YE_QUOTES is an array of quotes.
  */
-Deno.test('YE_QUOTES should contain an array of quotes', () => {
+Deno.test("YE_QUOTES should contain an array of quotes", () => {
   expect(Array.isArray(YE_QUOTES)).toBe(true);
 });
 
 /**
  * Test case to verify that YE_QUOTES contains at least one quote.
  */
-Deno.test('should contain at least one quote', () => {
+Deno.test("should contain at least one quote", () => {
   expect(YE_QUOTES.length).toBeGreaterThan(0);
 });
 
 /**
  * Test case to verify that YE_QUOTES contains only string values.
  */
-Deno.test('should contain only string values', () => {
-    YE_QUOTES.forEach((quote) => {
-      expect(typeof quote).toBe('string');
-    });
+Deno.test("should contain only string values", () => {
+  YE_QUOTES.forEach((quote) => {
+    expect(typeof quote).toBe("string");
+  });
 });

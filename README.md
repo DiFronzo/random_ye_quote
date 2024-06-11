@@ -1,7 +1,9 @@
-# Random Ye Quote 
+# Random Ye Quote
+
 <center><img src='https://github.com/DiFronzo/random_ye_quote/assets/30557582/a9402322-8209-4781-969e-f8cfcbab0659'></center>
 
-Generate a Ye aka. Kanye West quote using a cryptographically secure random number generator.
+Generate a Ye aka. Kanye West quote using a cryptographically secure random
+number generator.
 
 ## Usage
 
@@ -12,9 +14,13 @@ console.log(randomYeQuote()); // "All you have to be is yourself"
 ```
 
 ## WTF is JSR!?
-**JSR is TypeScript first**. You can publish a TypeScript package to JSR and import it without compilation or .d.ts files. Deno has always been able to run native TypeScript.
 
-First join the waiting list on https://jsr.io. It takes about 3 minutes to be accepted.
+**JSR is TypeScript first**. You can publish a TypeScript package to JSR and
+import it without compilation or .d.ts files. Deno has always been able to run
+native TypeScript.
+
+First join the waiting list on https://jsr.io. It takes about 3 minutes to be
+accepted.
 
 JSR is backwards compatible with Node. You add the registry to `.npmrc`:
 
