@@ -2,7 +2,8 @@
  * Importing the necessary modules and dependencies.
  */
 import { assert } from "https://deno.land/std@0.217.0/assert/assert.ts";
-import { Quote, randomYeQuote, YE_QUOTES } from "./mod.ts";
+import type { Quote } from "../mod.ts";
+import { randomYeQuote, YE_QUOTES } from "../mod.ts";
 import { expect } from "https://deno.land/x/expect/mod.ts";
 
 /**
